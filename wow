@@ -1,0 +1,6 @@
+gh auth login        # follow prompts to authenticate
+git init
+git add .
+git commit -m "Initial Valentine site"
+git branch -M main
+gh repo create my-valentine --public --source=. --push
